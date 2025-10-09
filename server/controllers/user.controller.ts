@@ -10,7 +10,7 @@ import { redis } from "../utils/redis";
 import ejs from "ejs";
 import { JwtPayload } from "jsonwebtoken";
 import path from "path";
-import { getUserById } from "./services/user.service";
+import { getUserById } from "../services/user.service";
 import cloudinary from "cloudinary";
 
 // register user
